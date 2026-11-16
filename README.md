@@ -1,4 +1,8 @@
-# tiny-chess-01 entry
+# tiny-chess-4kb
+
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/rajupramana370/tiny-chess-4kb/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/rajupramana370/tiny-chess-4kb/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
 A chess engine in 4 KB of Python: `main.py` is the whole engine
 (4,044 bytes, an lzma-packed payload with its unpacker, as the rules
@@ -19,3 +23,13 @@ MAKEFUN_ENV_URL and exits when every game is over.
   history are scored as the draw they would become.
 
 Python 3.13, standard library only. 0BSD, see LICENSE.
+
+## Run it
+
+```sh
+MAKEFUN_ENV_URL=<env-url> python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=raju-pramana&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
